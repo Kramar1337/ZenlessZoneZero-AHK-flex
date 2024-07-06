@@ -28,6 +28,6 @@ Home - Перезапуск
 
 2. Скачать репозиторий (Code > [Download Zip👌](https://github.com/Kramar1337/ZenlessZoneZero-AHK-flex/archive/main.zip))
 
-3. Запустить "WWFlex.ahk"
+3. Запустить "ZZZ.ahk"
 
 </details>
