@@ -1,4 +1,4 @@
-# ZenlessZoneZero-AHK flex v0
+# ZenlessZoneZero AHK flex v0.1
 
 AHK скрипт для Zenless Zone Zero
 
