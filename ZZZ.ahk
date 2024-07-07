@@ -47,12 +47,13 @@ Menu,Tray, Default, Reload
 Menu,Tray, add
 Menu,Tray, add, Exit, MetkaMenu1
 Menu,Tray, Icon, Exit, shell32.dll,28, 16
-Menu,Tray, Icon, imageres.dll, 80
+Menu,Tray, Icon, imageres.dll, 233
 Return
 
 
 
 Label_AFKatk:
+Keywait %key_AFKatk%
 IfWinNotActive, %WindowFocus%
 	Return
 ToggleR1 := !ToggleR1
@@ -63,7 +64,7 @@ else
 ToolTip,,,0,2
 Return
 SpamKeys:
-	Tooltip, Afk Atk`nPres %key_AtkFarm%,round(A_ScreenWidth * .5 - 50),0,2
+	Tooltip, Afk Atk`nPres %key_AFKatk%,round(A_ScreenWidth * .5 - 50),0,2
     SendInput, {vk1}
 	Sleep 200
     SendInput, {vk20}
@@ -82,6 +83,7 @@ return
 
 
 Label_Skip:
+Keywait %key_Skip%
 IfWinNotActive, %WindowFocus%
 	Return
 ToggleR2 := !ToggleR2
@@ -124,6 +126,7 @@ return
 
 
 Label_Skip2:
+Keywait %key_Skip2%
 IfWinNotActive, %WindowFocus%
 	Return
 Sleep 50
