@@ -5,7 +5,6 @@ AHK скрипт для Zenless Zone Zero
 🙏 Использование скриптов может привести к блокировке учетной записи, использовать на свой страх и риск.
 
 [__✨Boosty✨__](https://boosty.to/kramar1337)
-[__✨SteamTrade✨__](https://steamcommunity.com/tradeoffer/new/?partner=176456946&token=QbYR9jmE)
 
 :musical_keyboard:__Горячие клавиши:__:musical_keyboard:
 ```
